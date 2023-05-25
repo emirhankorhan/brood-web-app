@@ -24,7 +24,7 @@ function App() {
             
               <p className='first-logo'>brood</p>
           </div>
-          <button onClick={menuIsOpen} className='menu-button'><i class="fa-solid fa-grip-lines"></i></button>
+          <button onClick={menuIsOpen} className='menu-button'><i class="material-icons" >apps</i></button>
           <div className='header-nav-link'>
               <a href='/'>Home</a>
               <a href='/features'>Features</a>
