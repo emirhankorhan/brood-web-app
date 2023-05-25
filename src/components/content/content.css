@@ -5,8 +5,9 @@
     color: #1c232c;
     font-family: 'Lexend', sans-serif;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    margin-top: 4rem;
 }
 
 .first-content{
