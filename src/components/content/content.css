@@ -7,7 +7,8 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    margin-top: 1rem;
+    padding-top: 6rem;
+    
 }
 
 .first-content{
@@ -87,6 +88,10 @@
 }
 
 @media only screen and (min-width: 650px) and (max-width: 930px) {
+
+    .content-app{
+        padding-top: 5rem;
+    }
 
     .first-content{
         width: 55%;
@@ -182,6 +187,10 @@
         font-family: 'Lexend', sans-serif;
     }
 
+    .content-app{
+        padding-top: 3rem;
+    }
+
 }
 
 @media only screen and (max-width: 430px){
@@ -206,6 +215,10 @@
         margin-top: 0.5rem;
         margin-bottom: 1.5rem;
         justify-content: center;
+    }
+
+    .content-app{
+        padding-top: 2rem;
     }
 
 }
