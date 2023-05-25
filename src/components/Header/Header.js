@@ -37,7 +37,7 @@ function Header() {
 
   }else if(onButton === true){
     <div className='menu-open'>
-      <i class="fa-solid fa-xmark"></i>
+      <i onClick={menuIsClose} class="fa-solid fa-xmark"></i>
       <div></div>
       <div className='header-nav-link'>
               <a href='/'>Home</a>
