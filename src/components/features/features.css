@@ -1,0 +1,56 @@
+.features-app{
+    width: 100%;
+    height: 40vh;
+    background-color: #1c232c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features-app .feature-app-edit{
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features-app .feature-one,
+.features-app .feature-two,
+.features-app .feature-three{
+    width: 25%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feature-one-title,
+.feature-two-title,
+.feature-three-title{
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Lexend', sans-serif;
+    color: #fff;
+
+}
+
+.feature-three-text,
+.feature-two-text,
+.feature-one-text{
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    font-size: 13px;
+}

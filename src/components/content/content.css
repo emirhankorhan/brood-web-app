@@ -1,0 +1,210 @@
+.content-app{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    color: #1c232c;
+    font-family: 'Lexend', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-content{
+    width: 55%;
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.second-content{
+    width: 50%;
+    height: 8rem;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.content-button{
+    width: 25%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-button .focus-button{
+    height: 3rem;
+    width: 45%;
+    color: #1c232c;
+    background-color: #fff;
+    border: solid;
+    border-width: 1px;
+    border-color: #1c232c;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+.content-button .focus-button i{
+    padding-right: 5px;
+    color: #ff3e3e;
+}
+
+.content-button .free-button{
+    height: 3rem;
+    width: 45%;
+    color: #fff;
+    background-color: #1c232c;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+.content-button .focus-button:hover{
+    background-color: #1c232c;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.content-button .free-button:hover{
+    background-color: #fff;
+    border: solid;
+    border-color: #1c232c;
+    color: #1c232c;
+    border-width: 1px;
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 930px) {
+
+    .first-content{
+        width: 55%;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .second-content{
+        width: 50%;
+        height: 8rem;
+        font-size: 0.9rem;
+        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 1rem;
+        justify-content: center;
+    }
+
+    .content-button{
+        width: 35%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    
+
+}
+
+@media only screen and (max-width: 650px){
+
+    .first-content{
+        width: 55%;
+        height: 9rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .second-content{
+        width: 50%;
+        height: 8rem;
+        font-size: 0.8rem;
+        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+
+    .content-button{
+        width: 50%;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .content-button .free-button{
+        height: 2.5rem;
+        width: 90%;
+        color: #fff;
+        background-color: #1c232c;
+        border: none;
+        outline: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        font-family: 'Lexend', sans-serif;
+    }
+
+    .content-button .focus-button{
+        height: 2.5rem;
+        width: 90%;
+        color: #1c232c;
+        background-color: #fff;
+        border: solid;
+        border-width: 1px;
+        border-color: #1c232c;
+        outline: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        font-family: 'Lexend', sans-serif;
+    }
+
+}
+
+@media only screen and (max-width: 430px){
+    .first-content{
+        width: 55%;
+        height: 14rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    .second-content{
+        width: 50%;
+        height: 9rem;
+        font-size: 0.8rem;
+        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 0;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+    }
+
+}
