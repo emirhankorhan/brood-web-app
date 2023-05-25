@@ -122,6 +122,7 @@
 }
 
 @media only screen and (max-width: 925px) {
+
     .header-nav-link {
         display: none;
     }
@@ -136,7 +137,7 @@
         width: 6rem;
         align-items: center;
         justify-content: center;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
 
 
     }
@@ -159,7 +160,7 @@
 
     .header-nav-logo {
         margin-left: 0;
-        margin-left: 5%;
+        margin-left: 2%;
     }
 
 }
@@ -174,14 +175,18 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    animation: ornek-animasyon;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
 }
 
 .menu-open .close-button{
     width: 100%;
-    height: 5rem;
+    height: 13vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 17%;
     font-size: 1.5rem;
     color: #1c232c;
 }
@@ -241,6 +246,8 @@
 
 }
 
-.menu-button i{
-    color: #1c232c;
-}
+@keyframes ornek-animasyon {
+    from {left: -100%;}
+    to {left: 0;}
+  }
+
