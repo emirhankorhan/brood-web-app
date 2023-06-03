@@ -13,12 +13,20 @@
         background-size: cover;
     }
 
+    .menu-button{
+        display: flex;
+    }
+
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.menu-button{
+    display: none;
 }
 
 .header-navbar {
@@ -147,6 +155,7 @@
         background-color: rgb(97, 56, 56, 0);
         outline: none;
         border: none;
+        display: flex;
     }
 
     .header-navbar {

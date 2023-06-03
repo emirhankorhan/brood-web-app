@@ -1,7 +1,6 @@
 import React from 'react'
 import "./content.css"
-import Focus from '../focus/Focus'
-import { Route, Routes } from "react-router-dom";
+
 function Content() {
   return (
     <div className='content-app'>
@@ -13,11 +12,8 @@ function Content() {
         to be one of the most advanced websites to handle focus
         and success.</p>
       <div className='content-button'>
-        <button className='focus-button'><i class="fa-solid fa-bolt fa-fade"></i>Focus Assist</button>
-        <button className='free-button'><a href='/focus'>Try for Free</a></button>
-        <Routes>
-          <Route path='/focus' element={<Focus />} />
-        </Routes>
+        <a className='focus-button' href='/focus'><i class="fa-solid fa-bolt fa-fade"></i>Focus Assist</a>
+        <a className='free-button' href='/sign-in'>Try for Free</a>
       </div>
     </div>
   )

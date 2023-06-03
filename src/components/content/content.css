@@ -52,6 +52,11 @@
     border-radius: 3rem;
     cursor: pointer;
     font-family: 'Lexend', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 .content-button .focus-button i{
@@ -62,13 +67,18 @@
 .content-button .free-button{
     height: 3rem;
     width: 45%;
-    color: #fff;
     background-color: #1c232c;
     border: none;
     outline: none;
     border-radius: 3rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
     font-family: 'Lexend', sans-serif;
+    font-size: 12px;
 }
 
 .content-button .focus-button:hover{
@@ -82,9 +92,9 @@
     background-color: #fff;
     border: solid;
     border-color: #1c232c;
-    color: #1c232c;
     border-width: 1px;
     transition: 0.5s;
+    color: #1c232c;
 }
 
 @media only screen and (min-width: 650px) and (max-width: 930px) {
