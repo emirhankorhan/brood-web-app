@@ -1,6 +1,5 @@
 import './focus.css';
 import { useState, React } from "react";
-import Content from "../content/Content"
 // import Features from './components/features/Features';
 // import Featurestwo from './components/featurestwo/Featurestwo';
 import Focuscontent from './focus-content/Focuscontent';
