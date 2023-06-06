@@ -247,3 +247,25 @@
     from {left: -100%;}
     to {left: 0;}
 }
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-number{
+    height: 2rem;
+    display: flex;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 10%;
+    margin-top: 5rem;
+    font-size: 12px;
+
+}
+
+.content-number p{
+    color: #ff3e3e;
+    margin-left: 3
+    px;
+}

@@ -12,7 +12,7 @@ function Content() {
         to be one of the most advanced websites to handle focus
         and success.</p>
       <div className='content-button'>
-        <a className='focus-button' href='/focus'><i class="fa-solid fa-bolt fa-fade"></i>Focus Assist</a>
+        <a className='focus-button' href='/help-focusing'><i class="fa-solid fa-bolt fa-fade"></i>Focus Assist</a>
         <a className='free-button' href='/sign-in'>Try for Free</a>
       </div>
     </div>
