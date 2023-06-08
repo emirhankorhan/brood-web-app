@@ -1,13 +1,17 @@
-
-footer{
+footer {
     width: 100%;
-    height: 25rem;
-    background-color: #1c232c;
+    height: 30rem;
     display: flex;
     flex-direction: column;
 }
 
-footer .altkisim{
+.top-bos {
+    width: 100%;
+    background-color: #ffffff00;
+    height: 5rem;
+}
+
+footer .altkisim {
     width: 100%;
     height: 7rem;
     background-color: #171c24;
@@ -16,7 +20,7 @@ footer .altkisim{
     justify-content: space-between;
 }
 
-.altkisim .altyazi{
+.altkisim .altyazi {
     width: 15rem;
     height: 2rem;
     margin-left: 7rem;
@@ -27,7 +31,7 @@ footer .altkisim{
     align-items: center;
 }
 
-.altkisim .altsimge{
+.altkisim .altsimge {
     width: 8rem;
     height: 2rem;
     margin-right: 7rem;
@@ -36,23 +40,24 @@ footer .altkisim{
     justify-content: space-between;
 }
 
-.altsimge .simg i{
+.altsimge .simg i {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
 }
 
-.altsimge .simg i:hover{
+.altsimge .simg i:hover {
     transform: scale(1.1);
 }
 
-footer .conttt{
+footer .conttt {
     width: 100%;
     height: 18rem;
     display: flex;
+    background-color: #1c232c;
 }
 
-footer .conttt .cont1{
+footer .conttt .cont1 {
     width: 14%;
     height: 18rem;
     font-family: 'Lexend', sans-serif;
@@ -64,7 +69,7 @@ footer .conttt .cont1{
     margin-right: 4rem;
 }
 
-footer .conttt .cont2{
+footer .conttt .cont2 {
     width: 14%;
     height: 18rem;
     display: flex;
@@ -72,30 +77,15 @@ footer .conttt .cont2{
     flex-direction: column;
     color: #fff;
     margin-top: 4rem;
-    
+
 }
 
-.cont2 .cont2-2{
+.cont2 .cont2-2 {
     width: 70%;
     height: 8rem;
 }
 
-footer .conttt .cont3{
-    width: 14%;
-    height: 18rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
-    margin-top: 4rem;
-}
-
-.cont3 .cont3-3{
-    width: 70%;
-    height: 8rem;
-}
-
-footer .conttt .cont4{
+footer .conttt .cont3 {
     width: 14%;
     height: 18rem;
     display: flex;
@@ -105,12 +95,12 @@ footer .conttt .cont4{
     margin-top: 4rem;
 }
 
-.cont4 .cont4-4{
+.cont3 .cont3-3 {
     width: 70%;
     height: 8rem;
 }
 
-footer .conttt .cont5{
+footer .conttt .cont4 {
     width: 14%;
     height: 18rem;
     display: flex;
@@ -120,12 +110,27 @@ footer .conttt .cont5{
     margin-top: 4rem;
 }
 
-.cont5 .cont5-5{
+.cont4 .cont4-4 {
     width: 70%;
     height: 8rem;
 }
 
-footer .conttt .cont6{
+footer .conttt .cont5 {
+    width: 14%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 4rem;
+}
+
+.cont5 .cont5-5 {
+    width: 70%;
+    height: 8rem;
+}
+
+footer .conttt .cont6 {
     width: 30%;
     height: 18rem;
     display: flex;
@@ -134,7 +139,7 @@ footer .conttt .cont6{
     font-family: 'Lexend', sans-serif;
 }
 
-.cont6 .cont6-6{
+.cont6 .cont6-6 {
     width: 70%;
     height: 14rem;
     display: flex;
@@ -142,12 +147,12 @@ footer .conttt .cont6{
     flex-direction: column;
 }
 
-.cont6-6 .cont6yazi{
+.cont6-6 .cont6yazi {
     color: #dbdfe2;
     margin-bottom: 1rem;
 }
 
-.cont6-6 input{
+.cont6-6 input {
     width: 100%;
     height: 2.5rem;
     border: none;
@@ -159,7 +164,7 @@ footer .conttt .cont6{
     outline: none;
 }
 
-.cont6-6 button{
+.cont6-6 button {
     width: 100%;
     height: 2.5rem;
     border: none;
@@ -171,7 +176,7 @@ footer .conttt .cont6{
 }
 
 
-footer .conttt .cont2 h1{
+footer .conttt .cont2 h1 {
     width: 90%;
     height: 2rem;
 }
@@ -179,7 +184,7 @@ footer .conttt .cont2 h1{
 footer .conttt .cont2 p,
 footer .conttt .cont3 p,
 footer .conttt .cont4 p,
-footer .conttt .cont5 p{
+footer .conttt .cont5 p {
     height: 2rem;
     font-family: 'Lexend', sans-serif;
     font-size: 12px;
@@ -190,7 +195,7 @@ footer .conttt .cont5 p{
 footer .conttt .cont2 p:hover,
 footer .conttt .cont3 p:hover,
 footer .conttt .cont4 p:hover,
-footer .conttt .cont5 p:hover{
+footer .conttt .cont5 p:hover {
     color: #ff3e3e;
     transition: 0.5s;
 }
@@ -198,10 +203,190 @@ footer .conttt .cont5 p:hover{
 footer .conttt .cont2 h1,
 footer .conttt .cont3 h1,
 footer .conttt .cont4 h1,
-footer .conttt .cont5 h1{
+footer .conttt .cont5 h1 {
     height: 2rem;
     font-family: 'Lexend', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #dbdfe2;
+}
+
+@media only screen and (max-width: 965px) {
+
+    footer .conttt .cont2 p,
+    footer .conttt .cont3 p,
+    footer .conttt .cont4 p,
+    footer .conttt .cont5 p {
+        height: 2rem;
+        font-family: 'Lexend', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    footer .conttt .cont2 h1,
+    footer .conttt .cont3 h1,
+    footer .conttt .cont4 h1,
+    footer .conttt .cont5 h1 {
+        height: 2rem;
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #dbdfe2;
+    }
+
+    .cont6yazi {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 890px) {
+
+    footer .conttt .cont2 p,
+    footer .conttt .cont3 p,
+    footer .conttt .cont4 p,
+    footer .conttt .cont5 p {
+        height: 2rem;
+        font-family: 'Lexend', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    footer .conttt .cont2 h1,
+    footer .conttt .cont3 h1,
+    footer .conttt .cont4 h1,
+    footer .conttt .cont5 h1 {
+        height: 2rem;
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        color: #dbdfe2;
+    }
+
+    .cont6yazi {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    footer .conttt .cont2,
+    footer .conttt .cont3,
+    footer .conttt .cont4,
+    footer .conttt .cont5 {
+        width: 100%;
+        height: 5rem;
+        color: #fff;
+        margin-top: 0;
+    }
+
+    .cont2-2{
+        display: flex;
+        align-items: center;
+    }
+
+    .cont3-3{
+        display: flex;
+        align-items: center;
+    }
+
+    .cont4-4{
+        display: flex;
+        align-items: center;
+    }
+
+    .cont5-5{
+        display: flex;
+        align-items: center;
+    }
+
+    .cont2-2 p,
+    .cont3-3 p,
+    .cont4-4 p,
+    .cont5-5 p{
+        display: none;
+    }
+
+    .cont2-2 h1,
+    .cont3-3 h1,
+    .cont4-4 h1,
+    .cont5-5 h1{
+        height: 2rem;
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: #dbdfe2;
+        display: flex;
+        width: 60%;
+        align-items: center;}
+
+    footer .conttt {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #1c232c;
+    }
+
+    footer .conttt .cont1 {
+        width: 100%;
+        height: 6rem;
+        font-family: 'Lexend', sans-serif;
+        color: #ff3e3e;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    footer .conttt .cont6 {
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Lexend', sans-serif;
+    }
+    
+    .cont6 .cont6-6 {
+        width: 70%;
+        height: 14rem;
+        display: flex;
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+    
+    .cont6-6 .cont6yazi {
+        color: #dbdfe2;
+        margin-bottom: 1rem;
+    }
+    
+    .cont6-6 input {
+        width: 100%;
+        height: 2.5rem;
+        border: none;
+        border-radius: 3px;
+        background-color: #fff;
+        padding-left: 1rem;
+        font-family: 'Lexend', sans-serif;
+        margin-bottom: 1rem;
+        outline: none;
+    }
+    
+    .cont6-6 button {
+        width: 100%;
+        height: 2.5rem;
+        border: none;
+        border-radius: 3px;
+        background-color: #ff3e3e;
+        font-family: 'Lexend', sans-serif;
+        cursor: pointer;
+    
+    }
+
 }

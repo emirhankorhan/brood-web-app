@@ -4,6 +4,7 @@ import "./footer.css"
 function Footer() {
     return (
         <footer>
+            <div className='top-bos'></div>
             <div className='conttt'>
                 <div className='cont1'>brood</div>
                 <div className='cont2'>

@@ -4,6 +4,8 @@ import Footer from '../../Footer/Footer'
 
 function Focuscontent() {
     return (
+        <>
+        <div className='tamamlayici'>
         <div className='makalediv'>
             <div className='content-number'>Odaklanma Yardımı {">"}<p>Odaklanma Sorunu Nedir?</p></div>
             <div className='content-bas'>Odaklanma Sorunu Nedir?</div>
@@ -117,12 +119,30 @@ function Focuscontent() {
             <div className='content-icer10'>Anksiyete, yani kaygı bozukluğu ile mücadele eden kişiler genellikle zihinsel karışıklık , sisli düşünme, unutkanlık ve konsantrasyon güçlüğü belirtileri yaşarlar . Bu semptomlar güne ve stres yüküne bağlı olarak gelişebilir ve gelişebilirken, anksiyete bozukluğu olanlar için çok sinir bozucu olabilir.
 
                 Kortizol ve adrenalin gibi sürekli yüksek stres hormonları, anksiyete bozukluğu olan bireyleri rahatsız eden beyin sisinin nedenidir. Bu stres tepkisi, kaygı ve odaklanamama ve kısa süreli hafıza işleyişi gibi bilişsel işlevler üzerinde olumsuz bir etkiye sahiptir. Zayıf konsantrasyon ve odaklanma eksikliği, anksiyete bozukluğunun yaygın belirtileridir. Çalışma veya çalışma alışkanlıklarında bazı ayarlamalar yapmanız gerekeceğini kabul ederek, bu yeni yöntemleri uygulamaya başlayabilir ve zihinsel odaklanmanızı geliştirmeye başlayabilir, böylece daha fazla üretkenlik ve özgüven artışı sağlayabilirsiniz.</div>
-            <div className='bosbos'></div>
-            <Footer/>
+            
+            
 
 
 
         </div>
+        <div className='othercontent'>
+            <div className='othertitle'>Diğer İçerikler</div>
+            <div className='other1'></div>
+            <div className='other2'></div>
+            <div className='other3'></div>
+            <div className='other4'></div>
+            <div className='other5'></div>
+            <div className='other6'></div>
+            <div className='other7'></div>
+            <div className='other8'></div>
+            <div className='other9'></div>
+            <div className='other10'></div>
+        </div>
+        
+        
+        </div>
+        <Footer/>
+        </>
     )
 }
 

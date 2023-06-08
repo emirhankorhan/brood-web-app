@@ -1,55 +1,110 @@
+.makalediv {
+    width: 75%;
+    height: auto;
+}
 
-.makalediv{
+.content-number {
+    height: 2rem;
+    display: flex;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 10%;
+    margin-top: 5rem;
+    font-size: 12px;
+
+}
+
+.content-number p {
+    color: #ff3e3e;
+    margin-left: 3 px;
+}
+
+.tamamlayici {
     width: 100%;
     height: auto;
+    display: flex;
 }
 
-.makalediv .content-bas{
+.othercontent {
+    width: 25%;
+    height: auto;
+}
+
+.othertitle {
+    width: 100%;
+    height: 3rem;
+    margin-top: 15rem;
+    font-family: 'Lexend', sans-serif;
+    color: #1c232c;
+    font-size: 20px;
+}
+
+.other1,
+.other2,
+.other3,
+.other4,
+.other5,
+.other6,
+.other7,
+.other8,
+.other9,
+.other10 {
+    width: 80%;
+    height: 6rem;
+    margin-bottom: 2rem;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #ff3e3e;
+}
+
+.makalediv .content-bas {
     font-family: 'Lexend', sans-serif;
     font-size: 30px;
     display: flex;
     align-items: center;
     height: 7rem;
-    margin-left: 10%;
+    padding-left: 10%;
+    width: 100%;
 }
 
-.makalediv .content-icer{
+.makalediv .content-icer {
     font-family: 'Lexend', sans-serif;
     font-size: 15px;
     display: flex;
     align-items: center;
     height: auto;
-    width: 60%;
+    width: 80%;
     margin-left: 10%;
     line-height: 23px;
     color: #1c232c;
 
 }
 
-.makalediv .content-bas2{
+.makalediv .content-bas2 {
     font-family: 'Lexend', sans-serif;
     font-size: 30px;
     display: flex;
     align-items: center;
     height: 7rem;
-    margin-left: 10%;
+    padding-left: 10%;
+    width: 100%;
 
 }
 
-.makalediv .content-icer2{
+.makalediv .content-icer2 {
     font-family: 'Lexend', sans-serif;
     font-size: 15px;
     display: flex;
     align-items: center;
     height: auto;
-    width: 60%;
+    width: 80%;
     margin-left: 10%;
     line-height: 23px;
     color: #1c232c;
 
 }
 
-.imgmakale{
+.imgmakale {
     height: 20rem;
     width: 60%;
     background-image: url(undraw.svg);
@@ -60,207 +115,850 @@
 
 }
 
-.imgmakale2{
+.imgmakale2 {
     height: 30rem;
     width: 60%;
     background-image: url(undraw2.svg);
     background-position: center;
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
     margin-left: 5%;
 
 }
 
-.makalediv .content-bas3{
+.makalediv .content-bas3 {
     font-family: 'Lexend', sans-serif;
     font-size: 30px;
     display: flex;
     align-items: center;
     height: 7rem;
-    margin-left: 10%;
-
-}
-
-.makalediv .content-icer3{
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 60%;
-    margin-left: 10%;
-    line-height: 23px;
-    color: #1c232c;
-
-}
-
-.makalediv .content-bas4{
-    font-family: 'Lexend', sans-serif;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    height: 4rem;
-    margin-left: 10%;
-    color: #ff3e3e;
-
-}
-
-.makalediv .content-icer4{
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    height: auto;
-    width: 60%;
-    margin-left: 10%;
-    line-height: 23px;
-    color: #1c232c;
-
-}
-
-.makalediv .content-bas5{
-    font-family: 'Lexend', sans-serif;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    height: 4rem;
-    margin-left: 10%;
-    color: #ff3e3e;
-
-}
-
-.makalediv .content-icer5{
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    height: auto;
-    width: 60%;
-    margin-left: 10%;
-    line-height: 23px;
-    color: #1c232c;
-
-}
-
-.makalediv .content-bas6{
-    font-family: 'Lexend', sans-serif;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    height: 7rem;
-    margin-left: 10%;
-
-}
-
-.makalediv .content-icer6{
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 60%;
-    margin-left: 10%;
-    line-height: 23px;
-    color: #1c232c;
-
-}
-
-.makalediv .content-bas7{
-    font-family: 'Lexend', sans-serif;
-    font-size: 20px;
-    color: #ff3e3e;
-    display: flex;
-    align-items: center;
-    height: 7rem;
-    margin-left: 10%;
-
-}
-
-.makalediv .content-icer7{
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 60%;
-    margin-left: 10%;
-    line-height: 23px;
-    color: #1c232c;
-
-}
-
-.makalediv .content-bas8{
-    font-family: 'Lexend', sans-serif;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    height: 7rem;
-    margin-left: 10%;
-    color: #ff3e3e;
-
-}
-
-.makalediv .content-icer8{
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 60%;
-    margin-left: 10%;
-    line-height: 23px;
-    color: #1c232c;
-
-}
-
-.makalediv .content-bas9{
-    font-family: 'Lexend', sans-serif;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    height: 7rem;
-    margin-left: 10%;
-
-}
-
-.makalediv .content-icer9{
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 60%;
-    margin-left: 10%;
-    line-height: 23px;
-    color: #1c232c;
-
-}
-
-.makalediv .content-bas10{
-    font-family: 'Lexend', sans-serif;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    height: 7rem;
-    margin-left: 10%;
-    color: #ff3e3e;
-
-}
-
-.makalediv .content-icer10{
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 60%;
-    margin-left: 10%;
-    line-height: 23px;
-    color: #1c232c;
-
-}
-
-.bosbos{
+    padding-left: 10%;
     width: 100%;
-    height: 15rem;
+
+}
+
+.makalediv .content-icer3 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 23px;
+    color: #1c232c;
+
+}
+
+.makalediv .content-bas4 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding-left: 10%;
+    width: 100%;
+    color: #ff3e3e;
+
+}
+
+.makalediv .content-icer4 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 23px;
+    color: #1c232c;
+
+}
+
+.makalediv .content-bas5 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding-left: 10%;
+    width: 100%;
+    color: #ff3e3e;
+
+}
+
+.makalediv .content-icer5 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 23px;
+    color: #1c232c;
+
+}
+
+.makalediv .content-bas6 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    height: 7rem;
+    padding-left: 10%;
+    width: 100%;
+
+}
+
+.makalediv .content-icer6 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 23px;
+    color: #1c232c;
+
+}
+
+.makalediv .content-bas7 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    color: #ff3e3e;
+    display: flex;
+    align-items: center;
+    height: 7rem;
+    padding-left: 10%;
+    width: 100%;
+
+}
+
+.makalediv .content-icer7 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 23px;
+    color: #1c232c;
+
+}
+
+.makalediv .content-bas8 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 7rem;
+    padding-left: 10%;
+    width: 100%;
+    color: #ff3e3e;
+
+}
+
+.makalediv .content-icer8 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 23px;
+    color: #1c232c;
+
+}
+
+.makalediv .content-bas9 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    height: 7rem;
+    padding-left: 10%;
+    width: 100%;
+
+}
+
+.makalediv .content-icer9 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 23px;
+    color: #1c232c;
+
+}
+
+.makalediv .content-bas10 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    height: 7rem;
+    padding-left: 10%;
+    width: 100%;
+    color: #ff3e3e;
+
+}
+
+.makalediv .content-icer10 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 23px;
+    color: #1c232c;
+
+}
+
+@media only screen and (min-width: 925px) and (max-width: 1045px) {
+    .imgmakale {
+        height: 20rem;
+        width: 60%;
+        background-image: url(undraw.svg);
+        background-position: center;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        margin-left: 5%;
+
+    }
+
+    .imgmakale2 {
+        height: 20rem;
+        width: 60%;
+        background-image: url(undraw2.svg);
+        background-position: center;
+        background-size: 65%;
+        background-repeat: no-repeat;
+        margin-left: 5%;
+        margin-top: 3rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 925px) {
+
+    .othertitle {
+        width: 100%;
+        height: 3rem;
+        padding-left: 10%;
+        font-family: 'Lexend', sans-serif;
+        color: #1c232c;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    
+    .other1,
+    .other2,
+    .other3,
+    .other4,
+    .other5,
+    .other6,
+    .other7,
+    .other8,
+    .other9,
+    .other10 {
+        width: 60%;
+        height: 6rem;
+        margin-bottom: 2rem;
+        border: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #ff3e3e;
+    }
+
+    .tamamlayici {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .makalediv {
+        width: 100%;
+        height: auto;
+    }
+
+    .othercontent {
+        width: 100%;
+        height: 90rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .makalediv .content-bas {
+        font-family: 'Lexend', sans-serif;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+    }
+
+    .makalediv .content-icer {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas2 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer2 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+
+    .makalediv .content-bas3 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer3 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas4 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding-left: 10%;
+        width: 100%;
+        color: #ff3e3e;
+
+    }
+
+    .makalediv .content-icer4 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas5 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding-left: 10%;
+        width: 100%;
+        color: #ff3e3e;
+
+    }
+
+    .makalediv .content-icer5 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas6 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer6 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas7 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 20px;
+        color: #ff3e3e;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer7 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas8 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+        color: #ff3e3e;
+
+    }
+
+    .makalediv .content-icer8 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas9 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer9 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas10 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+        color: #ff3e3e;
+
+    }
+
+    .makalediv .content-icer10 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .imgmakale {
+        height: 25rem;
+        width: 100%;
+        background-image: url(undraw.svg);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        margin-left: 0;
+
+    }
+
+    .imgmakale2 {
+        height: 30rem;
+        width: 100%;
+        background-image: url(undraw2.svg);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        margin-left: 0;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+  
+    .makalediv .content-bas {
+        font-family: 'Lexend', sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+    }
+
+    .makalediv .content-icer {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas2 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer2 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+
+    .makalediv .content-bas3 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer3 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas4 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding-left: 10%;
+        width: 100%;
+        color: #ff3e3e;
+
+    }
+
+    .makalediv .content-icer4 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas5 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding-left: 10%;
+        width: 100%;
+        color: #ff3e3e;
+
+    }
+
+    .makalediv .content-icer5 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas6 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer6 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas7 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 17px;
+        color: #ff3e3e;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer7 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas8 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding-left: 10%;
+        width: 100%;
+        color: #ff3e3e;
+
+    }
+
+    .makalediv .content-icer8 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas9 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        padding-left: 10%;
+        width: 100%;
+
+    }
+
+    .makalediv .content-icer9 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .makalediv .content-bas10 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding-left: 10%;
+        width: 100%;
+        color: #ff3e3e;
+
+    }
+
+    .makalediv .content-icer10 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 23px;
+        color: #1c232c;
+        text-align: justify;
+
+    }
+
+    .imgmakale {
+        height: 25rem;
+        width: 100%;
+        background-image: url(undraw.svg);
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        margin-left: 0;
+
+    }
+
+    .imgmakale2 {
+        height: 30rem;
+        width: 100%;
+        background-image: url(undraw2.svg);
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        margin-left: 0;
+
+
+    }
+
 }

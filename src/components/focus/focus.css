@@ -4,7 +4,6 @@
     .menu-button{
         display: flex;
     }
-
 }
 
 * {
@@ -113,6 +112,16 @@
 @media only screen and (min-width: 925px) and (max-width: 1045px) {
     .header-nav-link {
         width: 35%;
+    }
+
+    .header-nav-log {
+        height: 6.5rem;
+        width: 37rem;
+        margin-left: 10%;
+        margin-right: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 
 }
@@ -254,18 +263,4 @@
     align-items: center;
 }
 
-.content-number{
-    height: 2rem;
-    display: flex;
-    font-family: 'Lexend', sans-serif;
-    margin-left: 10%;
-    margin-top: 5rem;
-    font-size: 12px;
 
-}
-
-.content-number p{
-    color: #ff3e3e;
-    margin-left: 3
-    px;
-}
